@@ -1,3 +1,6 @@
 .myhead{ 
     overflow-y:hidden;
 }
+body{
+    overflow-x: hidden;
+}

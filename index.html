@@ -16,24 +16,30 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <style>
         .hero{
-        position:absolute;
-      top: 7%;
-      left:4%;
+      position:absolute;
+      top: 10%;
+      left: 0;
+      right: 0;
+      bottom: 0;
       color: #fff;
       z-index: 1;
-            z-index:100;
+      z-index:100;
+      
+      margin: auto;
 
         }
         #particles-js{
-    
+            
+            position: relative;
+           
             
         }
-        body{ overflow-y:inherit; }
+        
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="myhead" style="overflow:hidden;">
         <div class="header-blue">
             <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
                 <div class="container"><a class="navbar-brand" href="#">Sources</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -57,7 +63,8 @@
     <div class="container hero">
                 <div class="center">
                     <div class="text-center">
-                        <h1>The resources are here.</h1>
+                       <h1>Sources <small class="small-text">&#64;</small>2.0</h1>
+                        <h4>The resources are here.</h4>
                         <p>Here you can find all the resources related to computer science.</p></div>
                         <div class=" text-center" id="button"><button class="btn btn-light btn-lg action-button" type="button">Learn More</button></div>
                     

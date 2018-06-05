@@ -11,6 +11,9 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
   .header-blue {
     padding-bottom:0px;
   }
+    #linker{
+        padding-left: 250px;
+    }
     .hero{
         padding-top: 0px;
     }
@@ -18,7 +21,14 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 @media  screen and (min-width : 0px) and (max-width : 767px)  {
   .header-blue {
     height:650px;
+      
   }
+    .logo{
+        margin: 0;
+    }
+    #linker{
+        padding-left: 0;
+    }
     .hero{
         padding-top: 100px;
     }

@@ -9,7 +9,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 @media (min-width:768px) {
   .header-blue {
-    padding-bottom:0px;
+    padding-bottom:0;
   }
     #linker{
         padding-left:250px;

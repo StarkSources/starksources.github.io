@@ -17,6 +17,6 @@ can contribute to this website.
 
 
 Bharath Sathuri
-(mail me)[sathuribharathbrothers1234@gmail.com]
-(about me)[https://about.me/bharathsathuri]
+[mail me](sathuribharathbrothers1234@gmail.com)
+[about me](https://about.me/bharathsathuri)
 

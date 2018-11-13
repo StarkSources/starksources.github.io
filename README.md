@@ -3,7 +3,7 @@
 > (visit this website)[https://starksources.github.io/]
 
 I have built this website with the help of basic template from boostrap studio. 
-I have collected all the useful resources for a computer student and divided into sub-categories and developed this website.
+I have collected all the useful resources for a computer science student and divided into sub-categories and developed this website.
 I have shared this to all my friends and on various platforms  and everyone gave a positive feedback on the use of this website.
 It has visits from more than 20 countries and now i wanted to this website to have 
 ## more collections of various streams

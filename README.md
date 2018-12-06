@@ -1,6 +1,6 @@
 # StarkSources.
 
-[![LOGO](/assets/img/StarkSources.png)](https://starksources.github.io/)
+[![LOGO](starksources.github.io/assets/img/Stark Sources.png)](https://starksources.github.io/)
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/stark-sources/stark-sources)
 

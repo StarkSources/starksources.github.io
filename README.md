@@ -1,6 +1,6 @@
 # StarkSources.
 
- [![LOGO](https://starksources.github.io/assets/img/Stark Sources.png)](https://starksources.github.io/)
+<img  class="flex-design" src="https://starksources.github.io/assets/img/Stark Sources.png" href="https://starksources.github.io/">
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/stark-sources/stark-sources)
 

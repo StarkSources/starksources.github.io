@@ -2,83 +2,237 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121197087-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-121197087-1');
+</script>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sources</title>
+    <meta name="description" content="A Collection of Technical Resources for Computer Science Students by Bharath Sathuri.">
+    <meta name="keywords" content="Stark,Sources,Bharath,Sathuri,Resources,Computer,Science,Preparation,Stark,Bharath,Sathuri">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
-    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .hero{
+      position:absolute;
+      top: 10%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      color: #fff;
+      z-index: 1;
+      z-index:100;
+      
+      margin: auto;
+
+        }
+        #particles-js{
+            
+            position: relative;
+           
+            
+        }
+        .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+        
+    </style>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDibe5YFd4QKfwK-9TpwXwFwf3zDzCGwZM",
+    authDomain: "sources-website.firebaseapp.com",
+    databaseURL: "https://sources-website.firebaseio.com",
+    projectId: "sources-website",
+    storageBucket: "sources-website.appspot.com",
+    messagingSenderId: "280894743585"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8397173575148898",
+          enable_page_level_ads: true
+     });
+</script>
 </head>
 
 <body>
-    <div class="register-photo">
-        <div class="form-container">
-            <div class="image-holder"></div>
-            <form method="post">
-                <h2 class="text-center"><strong>Create</strong> an account.</h2>
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-                <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-                <div class="form-group"><input class="form-control" type="password" name="password-repeat" placeholder="Password (repeat)"></div>
-                <div class="form-group">
-                    <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
+    <div class="myhead" style="overflow-y:hidden;">
+        <div class="header-blue">
+            <nav class="navbar navbar-dark navbar-expand-md navbar-static">
+                <div class="container" >
+                  <a class="navbar" id="linker" href="index.html"><img class="img-fluid logo" src="assets/img/logo.jpg"/></a>
+                  
+                    
                 </div>
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign Up</button></div><a href="#" class="already">You already have an account? Login here.</a></form>
-        </div>
-    </div>
-    <div class="highlight-blue">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Highlight</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </nav>
+            
+    <div class="container hero">
+                <div class="center">
+                    <div class="text-center">
+                       <h1>Sources <small class="small-text">&#64;</small>2.0</h1>
+                       <!--<div class="img-responsive"> <img src="assets/img/Resources%202.png" /></div>-->
+                        <h4>The resources are here.</h4>
+                        <p>Here you can find all the resources related to computer science.</p></div>
+                        <div class=" text-center" id="button"><button class="btn btn-light btn-lg action-button" type="button">Learn More</button></div>
+                   <br><div class="text-center" id="button"><button class = "btn btn-lg action-button" type="button" onclick="location.href='https://starksources.github.io/blog/'">Visit our Blog</button></div>                  
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="#">Primary</a></div>
         </div>
+    <div id="particles-js">
+    <!-- PARTICLE EFFECT -->
+    </div> 
+            
     </div>
-    <div class="login-clean">
-        <form method="post">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><i class="icon ion-ios-navigate"></i></div>
-            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div><a href="#" class="forgot">Forgot your email or password?</a></form>
+    
     </div>
-    <div class="login-dark">
-        <form method="post">
-            <h2 class="sr-only">Login Form</h2>
-            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
-            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
-            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
-            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div><a href="#" class="forgot">Forgot your email or password?</a></form>
-    </div>
-    <div class="contact-clean">
-        <form method="post">
-            <h2 class="text-center">Contact us</h2>
-            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
-            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
-            <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
-        </form>
-    </div>
-    <div class="newsletter-subscribe">
+    <div class="article-list">
         <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Subscribe for our Newsletter</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            <div class="intro" id="intro">
+                <h2 class="text-center">Categories</h2>
+                <p class="text-center">Here you can select a path of your choice and their best resources. </p>
             </div>
-            <form class="form-inline" method="post">
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
-                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
-            </form>
-        </div>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="programming.html"><img class="img-fluid" src="assets/img/programming2.jpg"></a>
+                    <h3 class="name">Learn Programming</h3>
+                    <p class="description">The pefect places to learn programming in various languages.</p><a href="programming.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div
+                    class="col-sm-6 col-md-4 item"><a href="coding.html"><img class="img-fluid" src="assets/img/codeimg.jpg"></a>
+                    <h3 class="name">Practice Coding</h3>
+                    <p class="description">A collection of renowned coding sites with many features. <a href="coderscalender.html">Coder's Calender</a></p><a href="coding.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+        
+        <div
+                class="col-sm-6 col-md-4 item"><a href="datascience.html"><img class="img-fluid" src="assets/img/datasimg.jpg"></a>
+                <h3 class="name">Data Science</h3>
+                <p class="description">Resoures required to choose and excel in Data Science.</p><a href="datascience.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+            <div
+                class="col-sm-6 col-md-4 item"><a href="android.html"><img class="img-fluid" src="assets/img/android-App-Development.jpg"></a>
+                <h3 class="name">Android Development</h3>
+                <p class="description">Resoures required to become an Android Developer.</p><a href="android.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+        <div
+            class="col-sm-6 col-md-4 item"><a href="web.html"><img class="img-fluid" src="assets/img/web-development.png"></a>
+            <h3 class="name">Web Development</h3>
+            <p class="description">A huge collection of resources to become a full Stack Developer(Front-end &amp; Backend).</p><a href="web.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+     <div
+        class="col-sm-6 col-md-4 item"><a href="usefulsites.html"><img class="img-fluid" src="assets/img/sites2.jpg"></a>
+        <h3 class="name">Useful Sites</h3>
+        <p class="description">A collection of various useful sites.</p><a href="usefulsites.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+        <div
+            class="col-sm-6 col-md-4 item"><a href="courses.html"><img class="img-fluid" src="assets/img/all-courses.jpg"></a>
+            <h3 class="name">Courses</h3>
+            <p class="description">Collection of top websites with unlimited number of courses.</p><a href="courses.html" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+    <div
+        class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/gateimg.png"></a>
+        <h3 class="name">GATE CS</h3>
+        <p class="description">very useful for all gate and gre aspirants.<br>WILL BE UPDATED SOON. <a href="https://gateoverflow.in/bookhidden">Practice here.</a></p><a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+    <div
+            class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/placements1-735x400.jpg"></a>
+            <h3 class="name">Placements</h3>
+            <p class="description">Collection of material for placements<br>WILL BE UPDATED SOON. <a href="https://practice.geeksforgeeks.org/company-tags">Practice here.</a></p><a href="#" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+            </div>
+            </div>
+            <p class="text-center" style="color:#E33862">Need help? Comment Here..!</p>
+            </div>
+<!-- <div class="container"> <a href="https://www.000webhost.com/1116115.html" target="_blank" class="text-center" ><img src="https://www.000webhost.com/images/banners/728x90/1.jpg" alt="Web hosting" width="728" height="90" border="0" /></a>  </div> -->  
+    <div id="disqus_thread" class="container"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'https://starksources.github.io/';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://sources-2.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<!-- <div class="container">   <a class="text-center" href="https://stude.co/460409" target="_blank"><img style="border: 0px" src="https://cdn.bitdegree.org/referral-banners/728x90.jpg" width="900" height="90" alt=""></a>  </div>      -->                
+            <!--<div class="contact-clean">
+                <form method="post">
+                    <h2 class="text-center">Contact us</h2>
+                    <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+                    <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger"></small></div>
+                    <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message"></textarea></div>
+                    <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+                </form>
+            </div>
+            -->
+    <div align=center><a href='#'><img src='https://www.counter12.com/img-9W61ay5B98402wYZ-2.gif' border='0' alt='web site counter free'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=9W61ay5B98402wYZ'></script></div>
+            <div class="footer-dark">
+                <footer>
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="col-md-6 item text-center">
+                                <h3><a href="http://sources.site90.com/" target="_blank">Previous Version of this site.</a></h3>
+                                <h3>Contact</h3>
+                                <ul>
+                                    <li><a href="mailto:sathuribharathbrothers1234@gmail.com?Subject=Hello%20Bharath" target="_blank">Send a Mail</a></li>
+                                    <li><a href="https://api.whatsapp.com/send?phone=919133430813">Send a Message</a></li>
+                                    
+                                </ul>
+                                <h3><a href="https://github.com/StarkSources/starksources.github.io" target="_blank">Contribute to this site.</a></h3>
+<!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="bharath-kumar-goud"><a class="LI-simple-link" href='https://in.linkedin.com/in/bharath-kumar-goud?trk=profile-badge'>Bharath Sathuri</a></div>-->
+                            </div>
+                            <div class="col-md-6 item text-center">
+                                <h3>Stark Sources</h3>
+                                <p>This is a website with a collection of various resources. This website is made with Bootstrap Studio.
+                                Hosted with Github Pages.Download the code of this website from this<a href="https://github.com/StarkSources/starksources.github.io"> link.</a></p>
+                            </div>
+                            <div class="col item social">
+                            <a href="https://www.facebook.com/sathuribharath.stark" target="_blank"><i class="icon ion-social-facebook"></i></a>
+                            <a href="https://github.com/Bharathbrothers" target="_blank"><i class="icon ion-social-github"></i></a>
+                            <a href="https://www.linkedin.com/in/bharath-kumar-goud/" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+                            <a href="https://twitter.com/BharathSathuri" target="_blank" ><i class="icon ion-social-twitter"></i></a></div>
+                        </div>
+                        <p class="copyright">STARK © 2018</p>
+                    </div>
+                </footer>
+            </div>
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    $("#button").click(function(){
+        $('html,body').animate({
+            scrollTop:$("#intro").offset().top},
+                               'slow');
+    });
+        
+    </script>
+<script src="particles.js"></script>
+<script src="particles.min.js"></script>
+<script src="app.js"></script>
+<script id="dsq-count-scr" src="//sources-2.disqus.com/count.js" async></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://my.hellobar.com/0563edf8550623fa5f4d92d8d144e8298672ebaf.js" type="text/javascript" charset="utf-8" async="async"></script>
+
+
 </body>
 
 </html>

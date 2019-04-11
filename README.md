@@ -4,7 +4,7 @@
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/stark-sources/stark-sources)
 
-> (visit this website)[https://starksources.github.io/]
+> [visit this website](https://starksources.github.io/)
 
 ![Stark](stark1.JPG)
 

@@ -6,9 +6,9 @@
 
 > (visit this website)[https://starksources.github.io/]
 
-![Stark](stark1.jpg)
+![Stark](stark1.JPG)
 
-![Stark](stark2.jpg)
+![Stark](stark2.JPG)
 
 I have built this website with the help of basic template from boostrap studio. 
 I have collected all the useful resources for a computer science student and divided into sub-categories and developed this website.
@@ -25,7 +25,8 @@ can contribute to this website.
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/stark-sources/stark-sources)
 
-    
+
+you can also check out our blog which is an extension to this site at [link](https://starksources.github.io/myblog/)
 
 Bharath Sathuri
 [mail me](sathuribharathbrothers1234@gmail.com)

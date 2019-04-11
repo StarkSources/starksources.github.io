@@ -25,6 +25,9 @@ can contribute to this website.
 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/stark-sources/stark-sources)
 
+you can check the technologies/ languages used in developing thid website and blog.
+
+![tech](tech.JPG)
 
 you can also check out our blog which is an extension to this site at [link](https://starksources.github.io/myblog/)
 

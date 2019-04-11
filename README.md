@@ -28,6 +28,10 @@ can contribute to this website.
 
 you can also check out our blog which is an extension to this site at [link](https://starksources.github.io/myblog/)
 
+![Blog](starkblog.JPG)
+
+![Blog](starkblog2.JPG)
+
 Bharath Sathuri
 [mail me](sathuribharathbrothers1234@gmail.com)
 
